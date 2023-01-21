@@ -1,0 +1,30 @@
+--------------------------
+REPOSITORY LINK
+--------------------------
+
+
+https://github.com/faizan-smit/expertizo
+
+
+--------------------------
+GITHUB HOSTING LINK
+--------------------------
+
+
+https://faizan-smit.github.io/expertizo/main
+
+
+--------------------------
+FIREBASE LINK
+--------------------------
+
+
+https://expertizo-faizan.web.app/
+https://expertizo-faizan.firebaseapp.com/
+
+
+--------------------------
+NETLIFY LINK
+--------------------------
+
+https://faizanexpertizo.netlify.app/
