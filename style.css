@@ -37,20 +37,63 @@
 
 }
 
+
+
 @font-face {
     font-family: 'Montserrat';
     src: url('./fonts/Montserrat/static/Montserrat-Regular.ttf');
 }
+
+
 
 @font-face {
     font-family: 'Varela_Round';
     src: url('./fonts/Varela_Round/VarelaRound-Regular.ttf');
 }
 
+
+
 @font-face {
     font-family: 'M-Bold';
     src: url('./fonts/Montserrat/static/Montserrat-Bold.ttf');
 }
+
+@font-face {
+    font-family: 'm-m-bold';
+    src: url('./fonts/Montserrat/static/Montserrat-SemiBold.ttf');
+}
+
+.lh-05{
+
+    line-height: 1.9em;
+
+}
+
+.font-m-m-bold{
+
+    font-family: 'm-m-bold';
+
+}
+
+.font-varela{
+
+    font-family: 'Varela_Round';
+
+}
+
+.font-montserrat{
+
+    font-family: 'Montserrat';
+
+}
+
+
+.font-m-bold{
+
+    font-family: 'M-Bold';
+
+}
+
 
 
 #thetop{
@@ -61,6 +104,20 @@
 
 }
 
+#backtotop{
+
+    height: 50px !important; 
+    width: 50px !important; 
+    position: fixed !important; 
+    right: 10px !important; 
+    bottom: 10px !important; 
+    background-color: #6195FF; 
+    color: white; z-index: 1;
+    font-size: 40px;
+    color: #ffffff;
+    border-radius: 5px;
+
+}
 
 #mainnavdiv{
 
@@ -150,6 +207,15 @@ font-size: 50px;
 
 }
 
+#scrollspyHeading2{
+
+
+padding-top: 90px;
+padding-bottom: 110px !important;
+background-color: #fafafa;
+
+}
+
 #featured-1{
 
     padding: 40px;
@@ -170,7 +236,7 @@ font-size: 50px;
     color: cornflowerblue !important;
     /* background-color: none !important; */
     background: none !important;
-    text-decoration: underline solid 2px cornflowerblue !important;
+    text-decoration: underline solid 2px #6195FF !important;
   }
 
 
@@ -196,6 +262,8 @@ font-size: 50px;
 
     height: 400px;
     width: 100%;
+    
+
     /* border-radius: 10px; */
     
     
@@ -228,8 +296,10 @@ font-size: 50px;
         position: relative;
         top: -400px;
         transform: scale(1);
-        display: none !important;
+        /* display: none !important; */
         visibility: hidden;
+        
+       
     
     }
     
@@ -258,7 +328,7 @@ font-size: 50px;
 
 .searchicon{
 
-    background-color: cornflowerblue;
+    background-color: #6195FF;
     height: 30px;
     width: 30px;
     font-size: 16px;
@@ -267,7 +337,7 @@ font-size: 50px;
 
 .overlayheading{
 
-    color: cornflowerblue;
+    color: #6195FF;
     font-size: 16px;
 
 }
@@ -280,21 +350,82 @@ font-size: 50px;
 }
     
 
+
+
 .feathr{
 
-    width: 50px !important;
-    border-top: 5px solid cornflowerblue;
+    width: 40px !important;
+    /* border-bottom: 4px solid #6195FF; */
+    height: 4px;
+    background-color: #6195FF !important;
+    border: none !important;
+    opacity: 100% !important;
 
 }
 
+
+#scrollspyHeading3{
+
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+
+#services-2{
+
+margin-bottom: 100px;
+
+
+}
+
+
 .service-card{
 
-    height: 250px;
+    height: 300px;
     border: 1px solid #eeeeee;
     padding: 20px;
     transform: scale(0.9);
+    transition: background-color 300ms;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
     
+
+}
+
+
+.service-card:hover{
+
+    background-color: #000000;
+
+
+}
+
+.service-card:hover h5{
+
+    color: #ffffff;
+    
+
+}
+
+.font-color-blue{
+
+    color: #6195FF;
+
+}
+
+.font-color-grey{
+
+    color: #868f9b;
+
+}
+
+.font-color-white{
+
+    color: #ffffff;
 
 }
 
@@ -308,6 +439,12 @@ font-size: 50px;
 .fa-resize{
 
     font-size: 35px !important;
+
+}
+
+.fa-resize-small{
+
+    font-size: 25px !important;
 
 }
 
@@ -341,19 +478,48 @@ font-size: 50px;
 
 .long-card{
 
-    border: 1px solid #fafafa;
+    border: 1px solid #eeeeee;
 
     height: 600px;
 
     transform: scale(0.9);
 
+    transition: background-color 300ms;
+
+
 }
+
+#boot-camp{
+
+    border: 4px solid #ff0000;
+
+}
+
+
+.long-card:hover{
+
+    background-color: #000000;
+
+}
+
+.long-card:hover .rounded-rectangle{
+
+    color: #ffffff;
+
+}
+
+.long-card:hover .blue-h{
+
+    color: #6195FF;
+
+}
+
 
 .rounded-rectangle{
 
 height: 150px;
 width: 150px;
-border: 1px solid cornflowerblue;
+border: 2px solid #6195FF;
 border-radius: 50%;
 
 }
@@ -361,10 +527,11 @@ border-radius: 50%;
 .button-1{
 
 background: none !important;
-border: 1px solid cornflowerblue !important;
+border: 2px solid #6195FF !important;
 border-radius: 3px !important;
 padding: 10px !important;
 width: 100px;
+color: #6195FF;
 
 }
   
@@ -383,18 +550,26 @@ width: 100px;
 .rounded-image{
 
 
-    height: 50px;
-    width: 50px;
+    height: 70px;
+    width: 70px;
     /* border: 1px solid cornflowerblue; */
     border-radius: 50%;
-
+    margin-right: 15px;
 }
 
 .dark-overlay{
 
-    background-color: rgba(0,0,0,0.3) !important;
+    background-color: rgba(0,0,0,0.8) !important;
     width: 100% !important;
 
+
+}
+
+
+#scrollspyHeading6{
+
+    padding-top: 100px;
+    padding-bottom: 100px;
 
 }
 
@@ -406,6 +581,9 @@ width: 100px;
     /* border: 1px solid violet; */
     
     transform: scale(0.9);
+    background-color: #f4f4f4;
+    transition: background-color 300ms;
+
 
 }
 
@@ -437,13 +615,41 @@ width: 100px;
     height: 500px;
     position: relative;
     top: -399px;
+    transition: background-color 300ms;
+
+
+}
+
+.founder-card:hover{
+
+    background-color: #000000;
 
 }
 
 .founder-card:hover .founder-card-overlay{
 
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0,0,0,0.7);
 
+
+}
+
+.founder-card:hover .founder-card-overlay h4{
+
+    color: #ffffff;
+
+
+}
+
+.founder-card:hover .founder-card-overlay p{
+
+    color: #6195FF;
+
+
+}
+
+.founder-card:hover .founder-card-overlay #linkedin{
+
+    visibility: visible;
 
 }
 
@@ -470,10 +676,58 @@ width: 100px;
 .line-height-links li a:hover{
 
 
-    color: cornflowerblue !important;
+    color: #6195FF !important;
     background-color: none !important;
     background: none !important;
     text-decoration: underline solid 2px cornflowerblue !important;
 
    
+}
+
+#linkedin{
+
+
+    font-size: 40px;
+    position: relative;
+    top: -315px;
+    left: 140px;
+    visibility: hidden;
+
+}
+
+
+.fa-resize-large{
+
+    font-size: 40px;
+
+}
+
+#footer{
+
+    margin-left: none !important;
+    margin-right: none !important;
+    padding-left: none !important;
+    padding-right: none !important;
+    background-color: #1c1d21;
+    width: 100% !important;
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+
+}
+
+#footer a{
+
+    color: #6195FF;
+    text-underline-offset: 0.3em;
+    text-decoration: underline 2px solid #6195FF;
+
+}
+
+#footer a:hover{
+
+    color: #ff0066;
+    text-underline-offset: 0.3em;
+    text-decoration: underline 2px solid #ff0066;
+
 }
