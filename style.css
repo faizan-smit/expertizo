@@ -72,3 +72,172 @@
 
 
 }
+
+.no-padding{
+
+    padding: 0% !important;
+    padding: none !important;
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: cornflowerblue !important;
+    background-color: none !important;
+    background: none !important;
+    text-decoration: underline solid 2px cornflowerblue !important;
+  }
+
+
+  #inner1{
+
+
+    background-image: url('./img/work11.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+
+  }
+
+  #inner1-1{
+
+    background-color: rgba(28, 29, 33, 0.5);
+    
+    width: 100%;
+
+  }
+
+  .box-card{
+
+    height: 400px;
+    width: 100%;
+    /* border-radius: 10px; */
+    
+    
+    
+    
+    
+    }
+    
+    .transform-9{
+    
+        /* transform: scale(0.95); */
+        cursor: pointer;
+    
+    }
+    
+    .box-card img{
+    
+        height: 400px;
+        width: 100%;
+        transform: scale(0.9);
+        /* border-radius: 10px; */
+        
+        
+    }
+    .innercard{
+    
+        /* transform: scale(0.95); */
+        padding: 10px;
+        background-color: rgba(0,0,0,.7);
+        position: relative;
+        top: -400px;
+        transform: scale(1);
+        display: none !important;
+        visibility: hidden;
+    
+    }
+    
+.box-card:hover{
+    
+    /* transform: scale(1); */
+
+    /* opacity: 0.8; */
+    
+    }
+    
+.box-card:hover .innercard{
+    
+        /* opacity: 0.8; */
+        /* display: block !important; */
+        visibility: visible !important;
+        opacity: 100% !important;
+        
+        }
+
+.font-white-color{
+
+            color: #ffffff;
+        
+        }
+
+.searchicon{
+
+    background-color: cornflowerblue;
+    height: 30px;
+    width: 30px;
+    font-size: 16px;
+
+}
+
+.overlayheading{
+
+    color: cornflowerblue;
+    font-size: 16px;
+
+}
+
+.margin-top-bottom{
+
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+    
+
+.feathr{
+
+    width: 50px !important;
+    border-top: 5px solid cornflowerblue;
+
+}
+
+.service-card{
+
+    height: 250px;
+    border: 1px solid #eeeeee;
+    padding: 20px;
+    transform: scale(0.9);
+    
+    
+
+}
+
+.fa-gem{
+
+    font-size: 35px !important;
+    
+
+}
+
+.fa-resize{
+
+    font-size: 35px !important;
+
+}
+
+.v-top{
+
+
+    vertical-align: top;
+
+}
+
+.service-card table tr, td{
+
+    padding: 10px;
+
+}
+
+  
