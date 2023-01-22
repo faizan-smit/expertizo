@@ -29,4 +29,4 @@ https://expertizo-faizan.firebaseapp.com/ (Almost Exact Copy)
 NETLIFY LINK
 --------------------------
 
-https://faizanexpertizo.netlify.app/
+https://faizanexpertizo.netlify.app/  (Obsolete)
