@@ -11,7 +11,9 @@ GITHUB HOSTING LINK
 --------------------------
 
 
+https://faizan-smit.github.io/expertizo/
 https://faizan-smit.github.io/expertizo/main
+https://faizan-smit.github.io/expertizo/beta
 
 
 --------------------------
@@ -19,8 +21,8 @@ FIREBASE LINK
 --------------------------
 
 
-https://expertizo-faizan.web.app/       	(Exact Copy)
-https://expertizo-faizan.firebaseapp.com/ (Exact Copy)
+https://expertizo-faizan.web.app/       	(Almost Exact Copy)
+https://expertizo-faizan.firebaseapp.com/ (Almost Exact Copy)
 
 
 --------------------------
