@@ -232,6 +232,11 @@ background-color: #fafafa;
 
 }
 
+.height-500{
+
+    height: 500px;
+
+}
 
 .no-padding-lr{
 
@@ -600,7 +605,8 @@ color: #6195FF;
 
 .dark-overlay{
 
-    background-color: rgba(0,0,0,0.8) !important;
+    background: rgba(28, 29, 33, 0.8) !important;
+    /* background-color: rgba(0,0,0,0.8) !important; */
     width: 100% !important;
 
 
