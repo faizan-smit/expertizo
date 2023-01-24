@@ -26,6 +26,12 @@ transform: scale(0.95);
 
     }
 
+    .height-500{
+
+        height: auto !important;
+
+    }
+
 
 }
 
@@ -68,6 +74,7 @@ transform: scale(0.95);
     font-family: 'm-m-bold';
     src: url('./fonts/Montserrat/static/Montserrat-SemiBold.ttf');
 }
+
 
 
 
