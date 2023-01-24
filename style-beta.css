@@ -232,6 +232,16 @@ background-color: #fafafa;
 
 }
 
+
+.no-padding-lr{
+
+    padding-left: none !important;
+    padding-right: none !important;
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+
+}
+
 .no-padding{
 
     padding: 0% !important;
